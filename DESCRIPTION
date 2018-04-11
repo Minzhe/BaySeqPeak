@@ -1,0 +1,14 @@
+Package: BaySeqPeak
+Type: Package
+Title: Bayesian hierarchical model for analyzing methylated RNA immunoprecipitation sequencing (MeRIP-Seq) data: peak calling and differential analysis
+Version: 0.1.0
+Date: 2018-04-10
+Author: Qiwei Li, Minzhe Zhang
+Maintainer: Minzhe Zhang <zenroute.mzhang@gmail.com>
+Description: DIGREsyn is developed to predict drug pair synergism/antagonism using Drug Induced Genomic Residual Effect (DIGRE) model. DIGRE utilize drug perturbated cell gene expression profile (GEP), drug dose response curve (DRC) and gene regulatory network (GRN) information (KEGG pathway database or self-provided) to do the prediction, and output the rank of drug pairs from most synergistic to most antagnoistic.
+Imports: GenomicFeatures, Rsamtools
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 6.0.1
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
